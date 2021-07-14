@@ -1,10 +1,3 @@
-/* ************************************************************************
-> File Name:     main.cpp
-> Author:        程序员Carl
-> 微信公众号:    代码随想录
-> Created Time:  Sun Dec  2 20:21:41 2018
-> Description:   
- ************************************************************************/
 #include <iostream>
 #include "skiplist.h"
 #define FILE_PATH "./store/dumpFile"
@@ -12,13 +5,13 @@
 int main() {
 
     SkipList<std::string, std::string> skipList(6);
-	skipList.insert_element("1", "学"); 
-	skipList.insert_element("3", "算法"); 
-	skipList.insert_element("7", "认准"); 
-	skipList.insert_element("8", "微信公众号：代码随想录"); 
-	skipList.insert_element("9", "学习"); 
-	skipList.insert_element("19", "算法不迷路"); 
-	skipList.insert_element("19", "赶快关注吧你会发现详见很晚！"); 
+	skipList.insert_element("1", "测试"); 
+	skipList.insert_element("3", "测试3"); 
+	skipList.insert_element("7", "测试7"); 
+	skipList.insert_element("8", "测试8"); 
+	skipList.insert_element("9", "测试9"); 
+	skipList.insert_element("19", "测试19"); 
+	skipList.insert_element("19", "测试20"); 
 
     std::cout << "skipList size:" << skipList.size() << std::endl;
 
